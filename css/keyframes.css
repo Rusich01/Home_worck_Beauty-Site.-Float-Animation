@@ -1,0 +1,39 @@
+@keyframes text-one {
+  0% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+@keyframes butt_chair {
+  0% {
+    background: #ec2366;
+  }
+  50% {
+    background: #ffffff;
+    color: #000;
+  }
+  100% {
+    background: #ec2366;
+  }
+}
+
+@keyframes butt_car {
+  0% {
+    background: #ffffff;
+  }
+  100% {
+    background: #f13c6e;
+    border: 2px solid #f13c6e;
+  }
+}
+
+@keyframes icons {
+  0% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
