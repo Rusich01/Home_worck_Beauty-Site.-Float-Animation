@@ -43,13 +43,16 @@ li {
   padding: 18px 15px;
 }
 .nav-item a {
+  display: inline-block;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #333333;
+  transition: 0.5s;
 }
 .nav-item a:hover {
   color: #7979f4;
+  transform: scale(1.2);
 }
 .logo-conteiner {
   width: 1110px;
@@ -110,13 +113,16 @@ li {
   padding: 30px 20px;
 }
 .second-nav a {
+  display: inline-block;
   color: #000000;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+  transition: 0.5s;
 }
 .second-nav a:hover {
   color: #7979f4;
+  transform: scale(1.2);
 }
 .second-nav ul {
   width: 700px;
@@ -321,7 +327,8 @@ li {
   line-height: 20px;
 }
 .butt-block-car {
-  display: block;
+  position: relative;
+  display: inline-block;
   width: 170px;
   border: 2px solid #ffffff;
   border-radius: 30px;
@@ -335,10 +342,9 @@ li {
   transition: 0.5s;
 }
 .butt-block-car:hover {
-  color: #f13c6e;
+  color: #fff;
   animation: butt_car 1s linear infinite;
 }
-
 .block-car-img {
   display: inline-block;
   vertical-align: top;
@@ -361,7 +367,7 @@ th a {
   background: #ffffff;
   width: 100%;
   padding: 35px 60px;
-  transform: scale(1);
+  transition: all 0.5s;
 }
 th a:hover {
   background: #c4c4c4;
